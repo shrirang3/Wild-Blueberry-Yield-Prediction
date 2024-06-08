@@ -3,10 +3,11 @@
 The below mentioned pipeline has been implemented in this project:
 
 1. Data Visualization (Data format is csv)
-2. Feature Engineering(Considers only relevant features)
-3. Modelling(Creating the model and training)
-4. Saving the model (using joblib)
-5. Prediction on data (accuracy calculation, ROC, confusion matrix)
-6. Explainable AI (Using shap library to get insights of model prediction)
-7. Front-End using Streamlit
-8. Deployment on Amazon Web Services(AWS)
+2. Outlier Detection and Removal (Using both IQR and z-score)
+3. Feature Engineering(Considers only relevant features)
+4. Modelling(Creating the model and training)
+5. Saving the model (using joblib)
+6. Prediction on data (accuracy calculation, ROC, confusion matrix)
+7. Explainable AI (Using shap library to get insights of model prediction)
+8. Front-End using Streamlit
+9. Deployment on Amazon Web Services(AWS)
